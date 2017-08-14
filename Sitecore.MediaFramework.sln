@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.MediaFramework", "Sitecore.MediaFramework\Sitecore.MediaFramework.csproj", "{288E6E2F-9027-4746-B6C9-1D0A04E484AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.MediaFramework.Test", "Sitecore.MediaFramework.Test\Sitecore.MediaFramework.Test.csproj", "{1A1602DB-8B3C-4075-8028-0BF3BBCCB774}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91856649-155C-47A7-ACDB-2E3596C75B0C} = {91856649-155C-47A7-ACDB-2E3596C75B0C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.MediaFramework.Migration", "Sitecore.MediaFramework.Migration\Sitecore.MediaFramework.Migration.csproj", "{91856649-155C-47A7-ACDB-2E3596C75B0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{288E6E2F-9027-4746-B6C9-1D0A04E484AA} = {288E6E2F-9027-4746-B6C9-1D0A04E484AA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.MediaFramework.Mvc", "Sitecore.MediaFramework.Mvc\Sitecore.MediaFramework.Mvc.csproj", "{D641D8FE-7A26-400C-98AB-62DA576BBC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288E6E2F-9027-4746-B6C9-1D0A04E484AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288E6E2F-9027-4746-B6C9-1D0A04E484AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288E6E2F-9027-4746-B6C9-1D0A04E484AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288E6E2F-9027-4746-B6C9-1D0A04E484AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1602DB-8B3C-4075-8028-0BF3BBCCB774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1602DB-8B3C-4075-8028-0BF3BBCCB774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1602DB-8B3C-4075-8028-0BF3BBCCB774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1602DB-8B3C-4075-8028-0BF3BBCCB774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91856649-155C-47A7-ACDB-2E3596C75B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91856649-155C-47A7-ACDB-2E3596C75B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91856649-155C-47A7-ACDB-2E3596C75B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91856649-155C-47A7-ACDB-2E3596C75B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D641D8FE-7A26-400C-98AB-62DA576BBC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D641D8FE-7A26-400C-98AB-62DA576BBC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D641D8FE-7A26-400C-98AB-62DA576BBC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D641D8FE-7A26-400C-98AB-62DA576BBC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
